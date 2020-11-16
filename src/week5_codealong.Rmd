@@ -1,0 +1,20 @@
+---
+title: "Penguins size comparisons"
+author: "Quin Smith"
+date: "11/16/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(palmerpenguins)
+library(effsize)
+library(broom)
+library(ggbeeswarm)
+library(car)
+```
+
+# Part 1: T-tests
+
+Mass comparison: Male and female chinstrap penguins
