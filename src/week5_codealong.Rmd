@@ -159,7 +159,7 @@ penguin_aov_t3 <- Anova(penguin_lm, type = "III")
 penguin_aov_t3
 ```
 test test est test test test
-
+test
 
 
 
